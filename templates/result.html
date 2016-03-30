@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Search Result</title>
+		<style type="text/css">
+			table {text-align: center;}
+			td {padding-left:10px;padding-right:10px;}
+		</style>
+	</head>
+	<body style="background-image:url(/static/img/result.jpg); background-repeat : repeat-y">
+        <center>
+        <table >
+        {% for item in lis%}
+			<tr bgcolor="ffe2e9" style="height:35">
+                <td align="left">{{item}}</td>
+			</tr>
+		{% endfor %}
+    	</table>
+        </center>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+body{
+    background: #fbfbf9;
+}
+.content-wrapper{
+    padding-top: 20px;
+    min-height: 700px;
+}
+.container{
+    clear: both;
+}
