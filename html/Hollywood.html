@@ -1,0 +1,64 @@
+<!DOCTYPE html><html><head><title>Hollywood</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.29368,103.848)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29654,103.843), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 108 Oxley Rise, Singapore 238705</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238706">http://gothere.sg/maps#q:238706</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29643,103.843), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 112 Oxley Rise, Singapore 238707</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238707">http://gothere.sg/maps#q:238707</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.29649,103.843), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 110 Oxley Rise, Singapore 238706</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238708">http://gothere.sg/maps#q:238708</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.29638,103.843), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 114 Oxley Rise, Singapore 238708</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238709">http://gothere.sg/maps#q:238709</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.29691,103.843), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 100 Oxley Rise, Singapore 238701</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238702">http://gothere.sg/maps#q:238702</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.29684,103.843), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 102 Oxley Rise, Singapore 238702</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238703">http://gothere.sg/maps#q:238703</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.29677,103.843), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 104 Oxley Rise, Singapore 238703</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238704">http://gothere.sg/maps#q:238704</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.2967,103.843), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hollywood Apartments</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hollywood Apartments, 106 Oxley Rise, Singapore 238704</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:238705">http://gothere.sg/maps#q:238705</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

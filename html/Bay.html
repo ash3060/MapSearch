@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><title>Bay</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.29926,103.868)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29767,103.872), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Pebble Bay</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Pebble Bay, 130 Tanjong Rhu Road, Singapore 436918</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:436918">http://gothere.sg/maps#q:436918</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29762,103.871), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Pebble Bay</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Pebble Bay, 132 Tanjong Rhu Road, Singapore 436919</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:436919">http://gothere.sg/maps#q:436919</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.29788,103.87), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Pebble Bay</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Pebble Bay, 134 Tanjong Rhu Road, Singapore 436920</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:436920">http://gothere.sg/maps#q:436920</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.29815,103.871), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Pebble Bay</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Pebble Bay, 136 Tanjong Rhu Road, Singapore 436921</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:436921">http://gothere.sg/maps#q:436921</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

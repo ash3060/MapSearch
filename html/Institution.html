@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><title>Institution</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.29368,103.848)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29534,103.84), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">13 Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>13 Institution Hill, Singapore 239667</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239668">http://gothere.sg/maps#q:239668</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29536,103.84), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">15 Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>15 Institution Hill, Singapore 239669</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239669">http://gothere.sg/maps#q:239669</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.29535,103.84), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">17 Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>17 Institution Hill, Singapore 239670</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239671">http://gothere.sg/maps#q:239671</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.29536,103.84), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">10 Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>10 Institution Hill, Singapore 239663</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239663">http://gothere.sg/maps#q:239663</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.29532,103.839), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">10A Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>10A Institution Hill, Singapore 239664</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239665">http://gothere.sg/maps#q:239665</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.29535,103.84), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">10B Institution Hill</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>10B Institution Hill, Singapore 239665</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239666">http://gothere.sg/maps#q:239666</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.29535,103.84), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Institution Ville</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Institution Ville, 11 Institution Hill, Singapore 239666</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239667">http://gothere.sg/maps#q:239667</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

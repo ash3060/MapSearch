@@ -1,0 +1,834 @@
+<!DOCTYPE html><html><head><title>Reservoir</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.3368,103.921)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var panoramaOptions = {position: new google.maps.LatLng(1.3368,103.921)};
+var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+map.setStreetView(panorama);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.33569,103.913), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">142 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>142 Bedok Reservoir Road, Singapore 470142</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470142">http://gothere.sg/maps#q:470142</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);
+panoramaOptions.position = marker0.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.33585,103.913), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">149 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>149 Bedok Reservoir Road, Singapore 470149</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470149">http://gothere.sg/maps#q:470149</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+panoramaOptions.position = marker1.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.33612,103.913), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">150 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>150 Bedok Reservoir Road, Singapore 470150</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470150">http://gothere.sg/maps#q:470150</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+panoramaOptions.position = marker2.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.33282,103.911), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">126 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>126 Bedok Reservoir Road, Singapore 470126</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470126">http://gothere.sg/maps#q:470126</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+panoramaOptions.position = marker3.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.33293,103.911), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">127 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>127 Bedok Reservoir Road, Singapore 470127</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470127">http://gothere.sg/maps#q:470127</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);
+panoramaOptions.position = marker4.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.3341,103.912), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">129 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>129 Bedok Reservoir Road, Singapore 470129</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470129">http://gothere.sg/maps#q:470129</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);
+panoramaOptions.position = marker5.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.33364,103.912), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">130 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>130 Bedok Reservoir Road, Singapore 470130</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470130">http://gothere.sg/maps#q:470130</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);
+panoramaOptions.position = marker6.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.3337,103.913), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">136 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>136 Bedok Reservoir Road, Singapore 470136</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470136">http://gothere.sg/maps#q:470136</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);
+panoramaOptions.position = marker7.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.33377,103.913), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">137 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>137 Bedok Reservoir Road, Singapore 470137</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470137">http://gothere.sg/maps#q:470137</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);
+panoramaOptions.position = marker8.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.33439,103.913), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">138 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>138 Bedok Reservoir Road, Singapore 470138</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470138">http://gothere.sg/maps#q:470138</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);
+panoramaOptions.position = marker9.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.33436,103.912), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">145 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>145 Bedok Reservoir Road, Singapore 470145</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470145">http://gothere.sg/maps#q:470145</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);
+panoramaOptions.position = marker10.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker11 = new google.maps.Marker({position: new google.maps.LatLng(1.33468,103.912), map: map});
+var infowindow11 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">146 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>146 Bedok Reservoir Road, Singapore 470146</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470146">http://gothere.sg/maps#q:470146</a></div></div>'});
+google.maps.event.addListener(marker11, 'click', function() {
+infowindow11.open(map,marker11);
+panoramaOptions.position = marker11.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker12 = new google.maps.Marker({position: new google.maps.LatLng(1.33492,103.912), map: map});
+var infowindow12 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">147 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>147 Bedok Reservoir Road, Singapore 470147</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470147">http://gothere.sg/maps#q:470147</a></div></div>'});
+google.maps.event.addListener(marker12, 'click', function() {
+infowindow12.open(map,marker12);
+panoramaOptions.position = marker12.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker13 = new google.maps.Marker({position: new google.maps.LatLng(1.33542,103.912), map: map});
+var infowindow13 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">148 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>148 Bedok Reservoir Road, Singapore 470148</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470148">http://gothere.sg/maps#q:470148</a></div></div>'});
+google.maps.event.addListener(marker13, 'click', function() {
+infowindow13.open(map,marker13);
+panoramaOptions.position = marker13.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker14 = new google.maps.Marker({position: new google.maps.LatLng(1.33567,103.912), map: map});
+var infowindow14 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">151 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>151 Bedok Reservoir Road, Singapore 470151</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470151">http://gothere.sg/maps#q:470151</a></div></div>'});
+google.maps.event.addListener(marker14, 'click', function() {
+infowindow14.open(map,marker14);
+panoramaOptions.position = marker14.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker15 = new google.maps.Marker({position: new google.maps.LatLng(1.33465,103.914), map: map});
+var infowindow15 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">139 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>139 Bedok Reservoir Road, Singapore 470139</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470139">http://gothere.sg/maps#q:470139</a></div></div>'});
+google.maps.event.addListener(marker15, 'click', function() {
+infowindow15.open(map,marker15);
+panoramaOptions.position = marker15.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker16 = new google.maps.Marker({position: new google.maps.LatLng(1.33497,103.913), map: map});
+var infowindow16 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">140 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>140 Bedok Reservoir Road, Singapore 470140</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470140">http://gothere.sg/maps#q:470140</a></div></div>'});
+google.maps.event.addListener(marker16, 'click', function() {
+infowindow16.open(map,marker16);
+panoramaOptions.position = marker16.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker17 = new google.maps.Marker({position: new google.maps.LatLng(1.33539,103.913), map: map});
+var infowindow17 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">141 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>141 Bedok Reservoir Road, Singapore 470141</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470141">http://gothere.sg/maps#q:470141</a></div></div>'});
+google.maps.event.addListener(marker17, 'click', function() {
+infowindow17.open(map,marker17);
+panoramaOptions.position = marker17.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker18 = new google.maps.Marker({position: new google.maps.LatLng(1.33506,103.913), map: map});
+var infowindow18 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">143 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>143 Bedok Reservoir Road, Singapore 470143</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470143">http://gothere.sg/maps#q:470143</a></div></div>'});
+google.maps.event.addListener(marker18, 'click', function() {
+infowindow18.open(map,marker18);
+panoramaOptions.position = marker18.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker19 = new google.maps.Marker({position: new google.maps.LatLng(1.33496,103.913), map: map});
+var infowindow19 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">144 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>144 Bedok Reservoir Road, Singapore 470144</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470144">http://gothere.sg/maps#q:470144</a></div></div>'});
+google.maps.event.addListener(marker19, 'click', function() {
+infowindow19.open(map,marker19);
+panoramaOptions.position = marker19.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker20 = new google.maps.Marker({position: new google.maps.LatLng(1.33078,103.913), map: map});
+var infowindow20 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">604 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>604 Bedok Reservoir Road, Singapore 470604</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470605">http://gothere.sg/maps#q:470605</a></div></div>'});
+google.maps.event.addListener(marker20, 'click', function() {
+infowindow20.open(map,marker20);
+panoramaOptions.position = marker20.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker21 = new google.maps.Marker({position: new google.maps.LatLng(1.33136,103.914), map: map});
+var infowindow21 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">606 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>606 Bedok Reservoir Road, Singapore 470606</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470607">http://gothere.sg/maps#q:470607</a></div></div>'});
+google.maps.event.addListener(marker21, 'click', function() {
+infowindow21.open(map,marker21);
+panoramaOptions.position = marker21.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker22 = new google.maps.Marker({position: new google.maps.LatLng(1.33193,103.913), map: map});
+var infowindow22 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">608 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>608 Bedok Reservoir Road, Singapore 470608</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470608">http://gothere.sg/maps#q:470608</a></div></div>'});
+google.maps.event.addListener(marker22, 'click', function() {
+infowindow22.open(map,marker22);
+panoramaOptions.position = marker22.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker23 = new google.maps.Marker({position: new google.maps.LatLng(1.33114,103.915), map: map});
+var infowindow23 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">611 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>611 Bedok Reservoir Road, Singapore 470611</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470612">http://gothere.sg/maps#q:470612</a></div></div>'});
+google.maps.event.addListener(marker23, 'click', function() {
+infowindow23.open(map,marker23);
+panoramaOptions.position = marker23.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker24 = new google.maps.Marker({position: new google.maps.LatLng(1.33162,103.915), map: map});
+var infowindow24 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">616 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>616 Bedok Reservoir Road, Singapore 470616</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470617">http://gothere.sg/maps#q:470617</a></div></div>'});
+google.maps.event.addListener(marker24, 'click', function() {
+infowindow24.open(map,marker24);
+panoramaOptions.position = marker24.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker25 = new google.maps.Marker({position: new google.maps.LatLng(1.33301,103.914), map: map});
+var infowindow25 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">630 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>630 Bedok Reservoir Road, Singapore 470630</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470631">http://gothere.sg/maps#q:470631</a></div></div>'});
+google.maps.event.addListener(marker25, 'click', function() {
+infowindow25.open(map,marker25);
+panoramaOptions.position = marker25.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker26 = new google.maps.Marker({position: new google.maps.LatLng(1.33254,103.914), map: map});
+var infowindow26 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">632 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>632 Bedok Reservoir Road, Singapore 470632</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470633">http://gothere.sg/maps#q:470633</a></div></div>'});
+google.maps.event.addListener(marker26, 'click', function() {
+infowindow26.open(map,marker26);
+panoramaOptions.position = marker26.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker27 = new google.maps.Marker({position: new google.maps.LatLng(1.33356,103.912), map: map});
+var infowindow27 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">128 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>128 Bedok Reservoir Road, Singapore 470128</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470128">http://gothere.sg/maps#q:470128</a></div></div>'});
+google.maps.event.addListener(marker27, 'click', function() {
+infowindow27.open(map,marker27);
+panoramaOptions.position = marker27.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker28 = new google.maps.Marker({position: new google.maps.LatLng(1.33321,103.912), map: map});
+var infowindow28 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">131 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>131 Bedok Reservoir Road, Singapore 470131</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470131">http://gothere.sg/maps#q:470131</a></div></div>'});
+google.maps.event.addListener(marker28, 'click', function() {
+infowindow28.open(map,marker28);
+panoramaOptions.position = marker28.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker29 = new google.maps.Marker({position: new google.maps.LatLng(1.33288,103.912), map: map});
+var infowindow29 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">132 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>132 Bedok Reservoir Road, Singapore 470132</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470132">http://gothere.sg/maps#q:470132</a></div></div>'});
+google.maps.event.addListener(marker29, 'click', function() {
+infowindow29.open(map,marker29);
+panoramaOptions.position = marker29.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker30 = new google.maps.Marker({position: new google.maps.LatLng(1.33247,103.912), map: map});
+var infowindow30 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">133 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>133 Bedok Reservoir Road, Singapore 470133</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470133">http://gothere.sg/maps#q:470133</a></div></div>'});
+google.maps.event.addListener(marker30, 'click', function() {
+infowindow30.open(map,marker30);
+panoramaOptions.position = marker30.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker31 = new google.maps.Marker({position: new google.maps.LatLng(1.33294,103.913), map: map});
+var infowindow31 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">134 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>134 Bedok Reservoir Road, Singapore 470134</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470134">http://gothere.sg/maps#q:470134</a></div></div>'});
+google.maps.event.addListener(marker31, 'click', function() {
+infowindow31.open(map,marker31);
+panoramaOptions.position = marker31.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker32 = new google.maps.Marker({position: new google.maps.LatLng(1.33322,103.913), map: map});
+var infowindow32 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">135 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>135 Bedok Reservoir Road, Singapore 470135</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470135">http://gothere.sg/maps#q:470135</a></div></div>'});
+google.maps.event.addListener(marker32, 'click', function() {
+infowindow32.open(map,marker32);
+panoramaOptions.position = marker32.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker33 = new google.maps.Marker({position: new google.maps.LatLng(1.33182,103.912), map: map});
+var infowindow33 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">609 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>609 Bedok Reservoir Road, Singapore 470609</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470610">http://gothere.sg/maps#q:470610</a></div></div>'});
+google.maps.event.addListener(marker33, 'click', function() {
+infowindow33.open(map,marker33);
+panoramaOptions.position = marker33.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker34 = new google.maps.Marker({position: new google.maps.LatLng(1.33212,103.917), map: map});
+var infowindow34 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">613 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>613 Bedok Reservoir Road, Singapore 470613</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470615">http://gothere.sg/maps#q:470615</a></div></div>'});
+google.maps.event.addListener(marker34, 'click', function() {
+infowindow34.open(map,marker34);
+panoramaOptions.position = marker34.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker35 = new google.maps.Marker({position: new google.maps.LatLng(1.33242,103.916), map: map});
+var infowindow35 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">615 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>615 Bedok Reservoir Road, Singapore 470615</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470616">http://gothere.sg/maps#q:470616</a></div></div>'});
+google.maps.event.addListener(marker35, 'click', function() {
+infowindow35.open(map,marker35);
+panoramaOptions.position = marker35.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker36 = new google.maps.Marker({position: new google.maps.LatLng(1.33249,103.917), map: map});
+var infowindow36 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">614 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>614 Bedok Reservoir Road, Singapore 470614</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470614">http://gothere.sg/maps#q:470614</a></div></div>'});
+google.maps.event.addListener(marker36, 'click', function() {
+infowindow36.open(map,marker36);
+panoramaOptions.position = marker36.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker37 = new google.maps.Marker({position: new google.maps.LatLng(1.33322,103.917), map: map});
+var infowindow37 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">617 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>617 Bedok Reservoir Road, Singapore 470617</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470618">http://gothere.sg/maps#q:470618</a></div></div>'});
+google.maps.event.addListener(marker37, 'click', function() {
+infowindow37.open(map,marker37);
+panoramaOptions.position = marker37.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker38 = new google.maps.Marker({position: new google.maps.LatLng(1.33309,103.917), map: map});
+var infowindow38 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">618 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>618 Bedok Reservoir Road, Singapore 470618</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470619">http://gothere.sg/maps#q:470619</a></div></div>'});
+google.maps.event.addListener(marker38, 'click', function() {
+infowindow38.open(map,marker38);
+panoramaOptions.position = marker38.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker39 = new google.maps.Marker({position: new google.maps.LatLng(1.33353,103.918), map: map});
+var infowindow39 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">619 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>619 Bedok Reservoir Road, Singapore 470619</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470620">http://gothere.sg/maps#q:470620</a></div></div>'});
+google.maps.event.addListener(marker39, 'click', function() {
+infowindow39.open(map,marker39);
+panoramaOptions.position = marker39.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker40 = new google.maps.Marker({position: new google.maps.LatLng(1.33393,103.918), map: map});
+var infowindow40 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">620 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>620 Bedok Reservoir Road, Singapore 470620</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470621">http://gothere.sg/maps#q:470621</a></div></div>'});
+google.maps.event.addListener(marker40, 'click', function() {
+infowindow40.open(map,marker40);
+panoramaOptions.position = marker40.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker41 = new google.maps.Marker({position: new google.maps.LatLng(1.33275,103.918), map: map});
+var infowindow41 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">613A Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>613A Bedok Reservoir Road, Singapore 471613</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:471615">http://gothere.sg/maps#q:471615</a></div></div>'});
+google.maps.event.addListener(marker41, 'click', function() {
+infowindow41.open(map,marker41);
+panoramaOptions.position = marker41.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker42 = new google.maps.Marker({position: new google.maps.LatLng(1.33288,103.918), map: map});
+var infowindow42 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">613B Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>613B Bedok Reservoir Road, Singapore 472613</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:472613">http://gothere.sg/maps#q:472613</a></div></div>'});
+google.maps.event.addListener(marker42, 'click', function() {
+infowindow42.open(map,marker42);
+panoramaOptions.position = marker42.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker43 = new google.maps.Marker({position: new google.maps.LatLng(1.33319,103.918), map: map});
+var infowindow43 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">613C Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>613C Bedok Reservoir Road, Singapore 473613</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:473613">http://gothere.sg/maps#q:473613</a></div></div>'});
+google.maps.event.addListener(marker43, 'click', function() {
+infowindow43.open(map,marker43);
+panoramaOptions.position = marker43.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker44 = new google.maps.Marker({position: new google.maps.LatLng(1.3346,103.917), map: map});
+var infowindow44 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">621 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>621 Bedok Reservoir Road, Singapore 470621</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470622">http://gothere.sg/maps#q:470622</a></div></div>'});
+google.maps.event.addListener(marker44, 'click', function() {
+infowindow44.open(map,marker44);
+panoramaOptions.position = marker44.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker45 = new google.maps.Marker({position: new google.maps.LatLng(1.33414,103.917), map: map});
+var infowindow45 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">622 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>622 Bedok Reservoir Road, Singapore 470622</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470623">http://gothere.sg/maps#q:470623</a></div></div>'});
+google.maps.event.addListener(marker45, 'click', function() {
+infowindow45.open(map,marker45);
+panoramaOptions.position = marker45.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker46 = new google.maps.Marker({position: new google.maps.LatLng(1.33373,103.917), map: map});
+var infowindow46 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">623 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>623 Bedok Reservoir Road, Singapore 470623</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470624">http://gothere.sg/maps#q:470624</a></div></div>'});
+google.maps.event.addListener(marker46, 'click', function() {
+infowindow46.open(map,marker46);
+panoramaOptions.position = marker46.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker47 = new google.maps.Marker({position: new google.maps.LatLng(1.33404,103.916), map: map});
+var infowindow47 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">625 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>625 Bedok Reservoir Road, Singapore 470625</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470625">http://gothere.sg/maps#q:470625</a></div></div>'});
+google.maps.event.addListener(marker47, 'click', function() {
+infowindow47.open(map,marker47);
+panoramaOptions.position = marker47.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker48 = new google.maps.Marker({position: new google.maps.LatLng(1.33405,103.916), map: map});
+var infowindow48 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">627 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>627 Bedok Reservoir Road, Singapore 470627</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470627">http://gothere.sg/maps#q:470627</a></div></div>'});
+google.maps.event.addListener(marker48, 'click', function() {
+infowindow48.open(map,marker48);
+panoramaOptions.position = marker48.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker49 = new google.maps.Marker({position: new google.maps.LatLng(1.33445,103.916), map: map});
+var infowindow49 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">626 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>626 Bedok Reservoir Road, Singapore 470626</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470628">http://gothere.sg/maps#q:470628</a></div></div>'});
+google.maps.event.addListener(marker49, 'click', function() {
+infowindow49.open(map,marker49);
+panoramaOptions.position = marker49.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker50 = new google.maps.Marker({position: new google.maps.LatLng(1.33498,103.915), map: map});
+var infowindow50 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">628 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>628 Bedok Reservoir Road, Singapore 470628</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470629">http://gothere.sg/maps#q:470629</a></div></div>'});
+google.maps.event.addListener(marker50, 'click', function() {
+infowindow50.open(map,marker50);
+panoramaOptions.position = marker50.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker51 = new google.maps.Marker({position: new google.maps.LatLng(1.33464,103.915), map: map});
+var infowindow51 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">629 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>629 Bedok Reservoir Road, Singapore 470629</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470630">http://gothere.sg/maps#q:470630</a></div></div>'});
+google.maps.event.addListener(marker51, 'click', function() {
+infowindow51.open(map,marker51);
+panoramaOptions.position = marker51.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker52 = new google.maps.Marker({position: new google.maps.LatLng(1.33339,103.915), map: map});
+var infowindow52 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">631 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>631 Bedok Reservoir Road, Singapore 470631</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470632">http://gothere.sg/maps#q:470632</a></div></div>'});
+google.maps.event.addListener(marker52, 'click', function() {
+infowindow52.open(map,marker52);
+panoramaOptions.position = marker52.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker53 = new google.maps.Marker({position: new google.maps.LatLng(1.33774,103.919), map: map});
+var infowindow53 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">701 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>701 Bedok Reservoir Road, Singapore 470701</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470701">http://gothere.sg/maps#q:470701</a></div></div>'});
+google.maps.event.addListener(marker53, 'click', function() {
+infowindow53.open(map,marker53);
+panoramaOptions.position = marker53.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker54 = new google.maps.Marker({position: new google.maps.LatLng(1.33731,103.919), map: map});
+var infowindow54 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">702 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>702 Bedok Reservoir Road, Singapore 470702</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470703">http://gothere.sg/maps#q:470703</a></div></div>'});
+google.maps.event.addListener(marker54, 'click', function() {
+infowindow54.open(map,marker54);
+panoramaOptions.position = marker54.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker55 = new google.maps.Marker({position: new google.maps.LatLng(1.33653,103.928), map: map});
+var infowindow55 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">722 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>722 Bedok Reservoir Road, Singapore 470722</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470723">http://gothere.sg/maps#q:470723</a></div></div>'});
+google.maps.event.addListener(marker55, 'click', function() {
+infowindow55.open(map,marker55);
+panoramaOptions.position = marker55.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker56 = new google.maps.Marker({position: new google.maps.LatLng(1.33674,103.929), map: map});
+var infowindow56 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">723 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>723 Bedok Reservoir Road, Singapore 470723</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470724">http://gothere.sg/maps#q:470724</a></div></div>'});
+google.maps.event.addListener(marker56, 'click', function() {
+infowindow56.open(map,marker56);
+panoramaOptions.position = marker56.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker57 = new google.maps.Marker({position: new google.maps.LatLng(1.33739,103.929), map: map});
+var infowindow57 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">725 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>725 Bedok Reservoir Road, Singapore 470725</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470725">http://gothere.sg/maps#q:470725</a></div></div>'});
+google.maps.event.addListener(marker57, 'click', function() {
+infowindow57.open(map,marker57);
+panoramaOptions.position = marker57.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker58 = new google.maps.Marker({position: new google.maps.LatLng(1.3354,103.923), map: map});
+var infowindow58 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">709 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>709 Bedok Reservoir Road, Singapore 470709</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470710">http://gothere.sg/maps#q:470710</a></div></div>'});
+google.maps.event.addListener(marker58, 'click', function() {
+infowindow58.open(map,marker58);
+panoramaOptions.position = marker58.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker59 = new google.maps.Marker({position: new google.maps.LatLng(1.33719,103.92), map: map});
+var infowindow59 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">703 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>703 Bedok Reservoir Road, Singapore 470703</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470704">http://gothere.sg/maps#q:470704</a></div></div>'});
+google.maps.event.addListener(marker59, 'click', function() {
+infowindow59.open(map,marker59);
+panoramaOptions.position = marker59.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker60 = new google.maps.Marker({position: new google.maps.LatLng(1.33667,103.92), map: map});
+var infowindow60 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">704 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>704 Bedok Reservoir Road, Singapore 470704</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470705">http://gothere.sg/maps#q:470705</a></div></div>'});
+google.maps.event.addListener(marker60, 'click', function() {
+infowindow60.open(map,marker60);
+panoramaOptions.position = marker60.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker61 = new google.maps.Marker({position: new google.maps.LatLng(1.33543,103.924), map: map});
+var infowindow61 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">710 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>710 Bedok Reservoir Road, Singapore 470710</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470711">http://gothere.sg/maps#q:470711</a></div></div>'});
+google.maps.event.addListener(marker61, 'click', function() {
+infowindow61.open(map,marker61);
+panoramaOptions.position = marker61.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker62 = new google.maps.Marker({position: new google.maps.LatLng(1.33581,103.924), map: map});
+var infowindow62 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">711 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>711 Bedok Reservoir Road, Singapore 470711</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470712">http://gothere.sg/maps#q:470712</a></div></div>'});
+google.maps.event.addListener(marker62, 'click', function() {
+infowindow62.open(map,marker62);
+panoramaOptions.position = marker62.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker63 = new google.maps.Marker({position: new google.maps.LatLng(1.3358,103.923), map: map});
+var infowindow63 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">712 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>712 Bedok Reservoir Road, Singapore 470712</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470713">http://gothere.sg/maps#q:470713</a></div></div>'});
+google.maps.event.addListener(marker63, 'click', function() {
+infowindow63.open(map,marker63);
+panoramaOptions.position = marker63.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker64 = new google.maps.Marker({position: new google.maps.LatLng(1.33661,103.922), map: map});
+var infowindow64 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">713 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>713 Bedok Reservoir Road, Singapore 470713</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470714">http://gothere.sg/maps#q:470714</a></div></div>'});
+google.maps.event.addListener(marker64, 'click', function() {
+infowindow64.open(map,marker64);
+panoramaOptions.position = marker64.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker65 = new google.maps.Marker({position: new google.maps.LatLng(1.33688,103.923), map: map});
+var infowindow65 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">714 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>714 Bedok Reservoir Road, Singapore 470714</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470715">http://gothere.sg/maps#q:470715</a></div></div>'});
+google.maps.event.addListener(marker65, 'click', function() {
+infowindow65.open(map,marker65);
+panoramaOptions.position = marker65.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker66 = new google.maps.Marker({position: new google.maps.LatLng(1.33639,103.923), map: map});
+var infowindow66 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">714A Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>714A Bedok Reservoir Road, Singapore 471714</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:471714">http://gothere.sg/maps#q:471714</a></div></div>'});
+google.maps.event.addListener(marker66, 'click', function() {
+infowindow66.open(map,marker66);
+panoramaOptions.position = marker66.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker67 = new google.maps.Marker({position: new google.maps.LatLng(1.33767,103.925), map: map});
+var infowindow67 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">716 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>716 Bedok Reservoir Road, Singapore 470716</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470717">http://gothere.sg/maps#q:470717</a></div></div>'});
+google.maps.event.addListener(marker67, 'click', function() {
+infowindow67.open(map,marker67);
+panoramaOptions.position = marker67.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker68 = new google.maps.Marker({position: new google.maps.LatLng(1.33748,103.925), map: map});
+var infowindow68 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">717 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>717 Bedok Reservoir Road, Singapore 470717</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470718">http://gothere.sg/maps#q:470718</a></div></div>'});
+google.maps.event.addListener(marker68, 'click', function() {
+infowindow68.open(map,marker68);
+panoramaOptions.position = marker68.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker69 = new google.maps.Marker({position: new google.maps.LatLng(1.3363,103.925), map: map});
+var infowindow69 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">719 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>719 Bedok Reservoir Road, Singapore 470719</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470719">http://gothere.sg/maps#q:470719</a></div></div>'});
+google.maps.event.addListener(marker69, 'click', function() {
+infowindow69.open(map,marker69);
+panoramaOptions.position = marker69.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker70 = new google.maps.Marker({position: new google.maps.LatLng(1.33583,103.925), map: map});
+var infowindow70 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">720 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>720 Bedok Reservoir Road, Singapore 470720</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470721">http://gothere.sg/maps#q:470721</a></div></div>'});
+google.maps.event.addListener(marker70, 'click', function() {
+infowindow70.open(map,marker70);
+panoramaOptions.position = marker70.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker71 = new google.maps.Marker({position: new google.maps.LatLng(1.33796,103.922), map: map});
+var infowindow71 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">741 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>741 Bedok Reservoir Road, Singapore 470741</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470742">http://gothere.sg/maps#q:470742</a></div></div>'});
+google.maps.event.addListener(marker71, 'click', function() {
+infowindow71.open(map,marker71);
+panoramaOptions.position = marker71.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker72 = new google.maps.Marker({position: new google.maps.LatLng(1.33846,103.922), map: map});
+var infowindow72 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">742 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>742 Bedok Reservoir Road, Singapore 470742</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470743">http://gothere.sg/maps#q:470743</a></div></div>'});
+google.maps.event.addListener(marker72, 'click', function() {
+infowindow72.open(map,marker72);
+panoramaOptions.position = marker72.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker73 = new google.maps.Marker({position: new google.maps.LatLng(1.33785,103.922), map: map});
+var infowindow73 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">744 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>744 Bedok Reservoir Road, Singapore 470744</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470745">http://gothere.sg/maps#q:470745</a></div></div>'});
+google.maps.event.addListener(marker73, 'click', function() {
+infowindow73.open(map,marker73);
+panoramaOptions.position = marker73.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker74 = new google.maps.Marker({position: new google.maps.LatLng(1.33763,103.922), map: map});
+var infowindow74 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">745 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>745 Bedok Reservoir Road, Singapore 470745</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470746">http://gothere.sg/maps#q:470746</a></div></div>'});
+google.maps.event.addListener(marker74, 'click', function() {
+infowindow74.open(map,marker74);
+panoramaOptions.position = marker74.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker75 = new google.maps.Marker({position: new google.maps.LatLng(1.33751,103.921), map: map});
+var infowindow75 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">746 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>746 Bedok Reservoir Road, Singapore 470746</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470747">http://gothere.sg/maps#q:470747</a></div></div>'});
+google.maps.event.addListener(marker75, 'click', function() {
+infowindow75.open(map,marker75);
+panoramaOptions.position = marker75.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker76 = new google.maps.Marker({position: new google.maps.LatLng(1.33873,103.922), map: map});
+var infowindow76 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">742A Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>742A Bedok Reservoir Road, Singapore 471742</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:471742">http://gothere.sg/maps#q:471742</a></div></div>'});
+google.maps.event.addListener(marker76, 'click', function() {
+infowindow76.open(map,marker76);
+panoramaOptions.position = marker76.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker77 = new google.maps.Marker({position: new google.maps.LatLng(1.33727,103.923), map: map});
+var infowindow77 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">715 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>715 Bedok Reservoir Road, Singapore 470715</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470716">http://gothere.sg/maps#q:470716</a></div></div>'});
+google.maps.event.addListener(marker77, 'click', function() {
+infowindow77.open(map,marker77);
+panoramaOptions.position = marker77.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker78 = new google.maps.Marker({position: new google.maps.LatLng(1.33812,103.923), map: map});
+var infowindow78 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">739 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>739 Bedok Reservoir Road, Singapore 470739</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470740">http://gothere.sg/maps#q:470740</a></div></div>'});
+google.maps.event.addListener(marker78, 'click', function() {
+infowindow78.open(map,marker78);
+panoramaOptions.position = marker78.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker79 = new google.maps.Marker({position: new google.maps.LatLng(1.33838,103.923), map: map});
+var infowindow79 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">740 Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>740 Bedok Reservoir Road, Singapore 470740</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:470741">http://gothere.sg/maps#q:470741</a></div></div>'});
+google.maps.event.addListener(marker79, 'click', function() {
+infowindow79.open(map,marker79);
+panoramaOptions.position = marker79.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker80 = new google.maps.Marker({position: new google.maps.LatLng(1.33844,103.923), map: map});
+var infowindow80 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">739A Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>739A Bedok Reservoir Road, Singapore 471739</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:471739">http://gothere.sg/maps#q:471739</a></div></div>'});
+google.maps.event.addListener(marker80, 'click', function() {
+infowindow80.open(map,marker80);
+panoramaOptions.position = marker80.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker81 = new google.maps.Marker({position: new google.maps.LatLng(1.3386,103.923), map: map});
+var infowindow81 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">740A Bedok Reservoir Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>740A Bedok Reservoir Road, Singapore 471740</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:471740">http://gothere.sg/maps#q:471740</a></div></div>'});
+google.maps.event.addListener(marker81, 'click', function() {
+infowindow81.open(map,marker81);
+panoramaOptions.position = marker81.position;
+panorama.setOptions(panoramaOptions);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body>
+<div id="map-canvas" style="width: 50%; height: 100%;float:left"></div>
+<div id="pano" style="width: 50%; height: 100%;float:left"></div>
+</body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html><html><head><title>Building</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.31904,103.875)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var panoramaOptions = {position: new google.maps.LatLng(1.31904,103.875)};
+var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+map.setStreetView(panorama);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.31583,103.878), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">NGB Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>NGB Building, 53 Lorong 17 Geylang, Singapore 388572</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388573">http://gothere.sg/maps#q:388573</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);
+panoramaOptions.position = marker0.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.31879,103.877), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">LHK Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>LHK Building, 701 Sims Drive, Singapore 387383</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:387384">http://gothere.sg/maps#q:387384</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+panoramaOptions.position = marker1.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.3173,103.881), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Yong Da Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Yong Da Building, 90 Lorong 23 Geylang, Singapore 388393</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388394">http://gothere.sg/maps#q:388394</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+panoramaOptions.position = marker2.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.31833,103.881), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">SCN Industrial Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>SCN Industrial Building, 118 Lorong 23 Geylang, Singapore 388402</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388404">http://gothere.sg/maps#q:388404</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+panoramaOptions.position = marker3.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.31517,103.88), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Wah Yang Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Wah Yang Building, 9 Lorong 21A Geylang, Singapore 388428</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388429">http://gothere.sg/maps#q:388429</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);
+panoramaOptions.position = marker4.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.31541,103.88), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Lam Thong Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Lam Thong Building, 11 Lorong 21A Geylang, Singapore 388429</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388430">http://gothere.sg/maps#q:388430</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);
+panoramaOptions.position = marker5.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.31521,103.881), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Yu Li Industrial Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Yu Li Industrial Building, 37 Lorong 23 Geylang, Singapore 388371</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388372">http://gothere.sg/maps#q:388372</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);
+panoramaOptions.position = marker6.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.31578,103.881), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Prosper Industrial Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Prosper Industrial Building, 22 Lorong 21A Geylang, Singapore 388431</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388432">http://gothere.sg/maps#q:388432</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);
+panoramaOptions.position = marker7.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.31522,103.881), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fansida Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fansida Building, 46 Lorong 23 Geylang, Singapore 388375</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388376">http://gothere.sg/maps#q:388376</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);
+panoramaOptions.position = marker8.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.31583,103.881), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Century Technology Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Century Technology Building, 56 Lorong 23 Geylang, Singapore 388381</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388381">http://gothere.sg/maps#q:388381</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);
+panoramaOptions.position = marker9.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.31635,103.881), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">THK Industrial Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>THK Industrial Building, 71 Lorong 23 Geylang, Singapore 388386</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388387">http://gothere.sg/maps#q:388387</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);
+panoramaOptions.position = marker10.position;
+panorama.setOptions(panoramaOptions);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body>
+<div id="map-canvas" style="width: 50%; height: 100%;float:left"></div>
+<div id="pano" style="width: 50%; height: 100%;float:left"></div>
+</body></html>

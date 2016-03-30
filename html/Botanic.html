@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><title>Botanic</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.29368,103.848)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29713,103.84), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 25 Lloyd Road, Singapore 239101</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239102">http://gothere.sg/maps#q:239102</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29713,103.84), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 27 Lloyd Road, Singapore 239102</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239103">http://gothere.sg/maps#q:239103</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.2969,103.84), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 31 Lloyd Road, Singapore 239104</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239105">http://gothere.sg/maps#q:239105</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.29691,103.84), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 33 Lloyd Road, Singapore 239106</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239107">http://gothere.sg/maps#q:239107</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.29713,103.84), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 23 Lloyd Road, Singapore 239125</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239126">http://gothere.sg/maps#q:239126</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.29694,103.839), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 35 Lloyd Road, Singapore 239126</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239127">http://gothere.sg/maps#q:239127</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.29713,103.84), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">The Botanic On Lloyd</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>The Botanic On Lloyd, 29 Lloyd Road, Singapore 239103</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239104">http://gothere.sg/maps#q:239104</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

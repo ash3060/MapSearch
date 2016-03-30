@@ -1,0 +1,50 @@
+<!DOCTYPE html><html><head><title>Hall</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.28905,103.851)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29064,103.852), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">City Hall</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>City Hall,3 Saint Andrew's Road, Singapore 178958</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:178958">http://gothere.sg/maps#q:178958</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29275,103.85), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Grand Park Hotel City Hall</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Grand Park Hotel City Hall,10 Coleman Street, Singapore 179809</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179811">http://gothere.sg/maps#q:179811</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.29297,103.853), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">City Hall MRT Station (EW13/NS25)</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>City Hall MRT Station (EW13/NS25),150 North Bridge Road, Singapore 179100</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179100">http://gothere.sg/maps#q:179100</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.28833,103.852), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Victoria Theatre And Concert Hall</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Victoria Theatre And Concert Hall,9 Empress Place, Singapore 179556</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179556">http://gothere.sg/maps#q:179556</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.28872,103.852), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Victoria Concert Hall</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Victoria Concert Hall,11 Empress Place, Singapore 179558</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179558">http://gothere.sg/maps#q:179558</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.29252,103.849), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Masonic Hall / Freemasons' Hall</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Masonic Hall / Freemasons' Hall,23A Coleman Street, Singapore 179806</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179807">http://gothere.sg/maps#q:179807</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

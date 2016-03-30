@@ -1,0 +1,85 @@
+<!DOCTYPE html><html><head><title>Centre</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.29368,103.848)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.29297,103.851), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Capitol Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Capitol Centre, 141 North Bridge Road, Singapore 179099</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179099">http://gothere.sg/maps#q:179099</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.29017,103.849), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">High Street Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>High Street Centre, 1 North Bridge Road, Singapore 179094</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179094">http://gothere.sg/maps#q:179094</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.29406,103.853), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Raffles City Shopping Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Raffles City Shopping Centre, 252 North Bridge Road, Singapore 179103</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179103">http://gothere.sg/maps#q:179103</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.29657,103.855), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Talib Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Talib Centre, 36 Purvis Street, Singapore 188613</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:188614">http://gothere.sg/maps#q:188614</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.2972,103.855), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">North Bridge Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>North Bridge Centre, 420 North Bridge Road, Singapore 188727</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:188728">http://gothere.sg/maps#q:188728</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.29585,103.856), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Beach Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Beach Centre, 15 Beach Road, Singapore 189677</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:189677">http://gothere.sg/maps#q:189677</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.29796,103.857), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Premier Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Premier Centre, 103 Beach Road, Singapore 189704</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:189705">http://gothere.sg/maps#q:189705</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.29245,103.844), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">ITS Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>ITS Centre, 181 River Valley Road, Singapore 179034</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179034">http://gothere.sg/maps#q:179034</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.29528,103.847), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fort Canning Cultural Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fort Canning Cultural Centre, Cox Terrace, Singapore 179618</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:179618">http://gothere.sg/maps#q:179618</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.29735,103.844), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Haw Par Centre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Haw Par Centre, 180 Clemenceau Avenue, Singapore 239922</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239923">http://gothere.sg/maps#q:239923</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.29152,103.842), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">DBS Arts Centre / Singapore Repertory Theatre</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>DBS Arts Centre / Singapore Repertory Theatre, 20 Merbau Road, Singapore 239035</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:239036">http://gothere.sg/maps#q:239036</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>
