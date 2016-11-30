@@ -1,0 +1,244 @@
+<!DOCTYPE html><html><head><title>George's</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.31013,103.869)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var panoramaOptions = {position: new google.maps.LatLng(1.31013,103.869)};
+var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+map.setStreetView(panorama);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.30822,103.861), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">804 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>804 King George\'s Avenue, Singapore 200804</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:200804">http://gothere.sg/maps#q:200804</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);
+panoramaOptions.position = marker0.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.30853,103.861), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">803 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>803 King George\'s Avenue, Singapore 200803</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:200805">http://gothere.sg/maps#q:200805</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+panoramaOptions.position = marker1.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.30862,103.861), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">806 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>806 King George\'s Avenue, Singapore 200806</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:200806">http://gothere.sg/maps#q:200806</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+panoramaOptions.position = marker2.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.30837,103.861), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">805 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>805 King George\'s Avenue, Singapore 200805</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:200807">http://gothere.sg/maps#q:200807</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+panoramaOptions.position = marker3.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.30938,103.861), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">807 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>807 King George\'s Avenue, Singapore 200807</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:200808">http://gothere.sg/maps#q:200808</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);
+panoramaOptions.position = marker4.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.31025,103.862), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 342 King George\'s Avenue, Singapore 208575</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208576">http://gothere.sg/maps#q:208576</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);
+panoramaOptions.position = marker5.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.31029,103.862), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 344 King George\'s Avenue, Singapore 208576</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208577">http://gothere.sg/maps#q:208577</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);
+panoramaOptions.position = marker6.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.31032,103.863), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 346 King George\'s Avenue, Singapore 208577</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208578">http://gothere.sg/maps#q:208578</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);
+panoramaOptions.position = marker7.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.31035,103.863), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 348 King George\'s Avenue, Singapore 208578</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208579">http://gothere.sg/maps#q:208579</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);
+panoramaOptions.position = marker8.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.31039,103.863), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 350 King George\'s Avenue, Singapore 208579</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208580">http://gothere.sg/maps#q:208580</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);
+panoramaOptions.position = marker9.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.30985,103.862), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 322 King George\'s Avenue, Singapore 208565</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208565">http://gothere.sg/maps#q:208565</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);
+panoramaOptions.position = marker10.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker11 = new google.maps.Marker({position: new google.maps.LatLng(1.30989,103.862), map: map});
+var infowindow11 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 324 King George\'s Avenue, Singapore 208566</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208566">http://gothere.sg/maps#q:208566</a></div></div>'});
+google.maps.event.addListener(marker11, 'click', function() {
+infowindow11.open(map,marker11);
+panoramaOptions.position = marker11.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker12 = new google.maps.Marker({position: new google.maps.LatLng(1.30993,103.862), map: map});
+var infowindow12 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 326 King George\'s Avenue, Singapore 208567</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208567">http://gothere.sg/maps#q:208567</a></div></div>'});
+google.maps.event.addListener(marker12, 'click', function() {
+infowindow12.open(map,marker12);
+panoramaOptions.position = marker12.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker13 = new google.maps.Marker({position: new google.maps.LatLng(1.31001,103.862), map: map});
+var infowindow13 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 330 King George\'s Avenue, Singapore 208569</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208569">http://gothere.sg/maps#q:208569</a></div></div>'});
+google.maps.event.addListener(marker13, 'click', function() {
+infowindow13.open(map,marker13);
+panoramaOptions.position = marker13.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker14 = new google.maps.Marker({position: new google.maps.LatLng(1.30997,103.862), map: map});
+var infowindow14 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 328 King George\'s Avenue, Singapore 208568</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208572">http://gothere.sg/maps#q:208572</a></div></div>'});
+google.maps.event.addListener(marker14, 'click', function() {
+infowindow14.open(map,marker14);
+panoramaOptions.position = marker14.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker15 = new google.maps.Marker({position: new google.maps.LatLng(1.31004,103.862), map: map});
+var infowindow15 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 332 King George\'s Avenue, Singapore 208570</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208570">http://gothere.sg/maps#q:208570</a></div></div>'});
+google.maps.event.addListener(marker15, 'click', function() {
+infowindow15.open(map,marker15);
+panoramaOptions.position = marker15.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker16 = new google.maps.Marker({position: new google.maps.LatLng(1.31008,103.862), map: map});
+var infowindow16 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 334 King George\'s Avenue, Singapore 208571</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208571">http://gothere.sg/maps#q:208571</a></div></div>'});
+google.maps.event.addListener(marker16, 'click', function() {
+infowindow16.open(map,marker16);
+panoramaOptions.position = marker16.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker17 = new google.maps.Marker({position: new google.maps.LatLng(1.31012,103.862), map: map});
+var infowindow17 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 336 King George\'s Avenue, Singapore 208572</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208573">http://gothere.sg/maps#q:208573</a></div></div>'});
+google.maps.event.addListener(marker17, 'click', function() {
+infowindow17.open(map,marker17);
+panoramaOptions.position = marker17.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker18 = new google.maps.Marker({position: new google.maps.LatLng(1.31015,103.862), map: map});
+var infowindow18 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 338 King George\'s Avenue, Singapore 208573</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208574">http://gothere.sg/maps#q:208574</a></div></div>'});
+google.maps.event.addListener(marker18, 'click', function() {
+infowindow18.open(map,marker18);
+panoramaOptions.position = marker18.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker19 = new google.maps.Marker({position: new google.maps.LatLng(1.31019,103.862), map: map});
+var infowindow19 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 340 King George\'s Avenue, Singapore 208574</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208575">http://gothere.sg/maps#q:208575</a></div></div>'});
+google.maps.event.addListener(marker19, 'click', function() {
+infowindow19.open(map,marker19);
+panoramaOptions.position = marker19.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker20 = new google.maps.Marker({position: new google.maps.LatLng(1.30981,103.862), map: map});
+var infowindow20 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 320 King George\'s Avenue, Singapore 208564</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208568">http://gothere.sg/maps#q:208568</a></div></div>'});
+google.maps.event.addListener(marker20, 'click', function() {
+infowindow20.open(map,marker20);
+panoramaOptions.position = marker20.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker21 = new google.maps.Marker({position: new google.maps.LatLng(1.31059,103.862), map: map});
+var infowindow21 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">117 King George\'s Avenue</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>117 King George\'s Avenue, Singapore 208562</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208563">http://gothere.sg/maps#q:208563</a></div></div>'});
+google.maps.event.addListener(marker21, 'click', function() {
+infowindow21.open(map,marker21);
+panoramaOptions.position = marker21.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker22 = new google.maps.Marker({position: new google.maps.LatLng(1.31043,103.863), map: map});
+var infowindow22 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">King George\'s Building</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>King George\'s Building, 352 King George\'s Avenue, Singapore 208580</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208581">http://gothere.sg/maps#q:208581</a></div></div>'});
+google.maps.event.addListener(marker22, 'click', function() {
+infowindow22.open(map,marker22);
+panoramaOptions.position = marker22.position;
+panorama.setOptions(panoramaOptions);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body>
+<div id="map-canvas" style="width: 50%; height: 100%;float:left"></div>
+<div id="pano" style="width: 50%; height: 100%;float:left"></div>
+</body></html>

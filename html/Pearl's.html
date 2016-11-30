@@ -1,0 +1,43 @@
+<!DOCTYPE html><html><head><title>Pearl's</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.28729,103.852)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.28299,103.841), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">18 Pearl\'s Hill Terrace</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>18 Pearl\'s Hill Terrace, Singapore 168975</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:168975">http://gothere.sg/maps#q:168975</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.28461,103.841), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">195 Pearl\'s Hill Terrace</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>195 Pearl\'s Hill Terrace, Singapore 168976</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:168976">http://gothere.sg/maps#q:168976</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.28494,103.841), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">201 Pearl\'s Hill Terrace</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>201 Pearl\'s Hill Terrace, Singapore 168977</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:168977">http://gothere.sg/maps#q:168977</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.28518,103.842), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">31 Pearl\'s Hill Terrace</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>31 Pearl\'s Hill Terrace, Singapore 168978</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:168978">http://gothere.sg/maps#q:168978</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.28733,103.842), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">10 Pearl\'s Hill Road</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>10 Pearl\'s Hill Road, Singapore 168997</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:168997">http://gothere.sg/maps#q:168997</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body><div id="map-canvas"></div></body></html>

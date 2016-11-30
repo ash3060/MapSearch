@@ -269,7 +269,11 @@ void respond(char *_f, int fd)
         //seasrch keyword
         else
         {
+<<<<<<< HEAD
             //fprintf(stdout,"no submit=submit\n");
+=======
+            fprintf(stdout,"no submit=submit\n");
+>>>>>>> 75d2c43283d30eb2ccaf5d9647e05e00dd5810e0
             std::string keyword = f_tmp.substr(17, bound_pos-15-17);
             if (keyword.size()==0){
                 generateError("error", "Please enter a keyword!");

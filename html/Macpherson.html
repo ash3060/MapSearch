@@ -1,0 +1,124 @@
+<!DOCTYPE html><html><head><title>Macpherson</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.33197,103.892)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var panoramaOptions = {position: new google.maps.LatLng(1.33197,103.892)};
+var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+map.setStreetView(panorama);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.33365,103.886), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 7 Playfair Road, Singapore 367984</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:367984">http://gothere.sg/maps#q:367984</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);
+panoramaOptions.position = marker0.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.33375,103.886), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 9 Playfair Road, Singapore 367985</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:367985">http://gothere.sg/maps#q:367985</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+panoramaOptions.position = marker1.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.33435,103.888), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 11 Harper Road, Singapore 369676</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:369678">http://gothere.sg/maps#q:369678</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+panoramaOptions.position = marker2.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.33215,103.886), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">81 Macpherson Lane</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>81 Macpherson Lane, Singapore 360081</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:360081">http://gothere.sg/maps#q:360081</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+panoramaOptions.position = marker3.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.33263,103.886), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Green</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Green, 568 Macpherson Road, Singapore 368236</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:368236">http://gothere.sg/maps#q:368236</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);
+panoramaOptions.position = marker4.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.33337,103.887), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 3 Playfair Road, Singapore 367982</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:367982">http://gothere.sg/maps#q:367982</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);
+panoramaOptions.position = marker5.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.33347,103.886), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 5 Playfair Road, Singapore 367983</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:367983">http://gothere.sg/maps#q:367983</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);
+panoramaOptions.position = marker6.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.3327,103.887), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Green</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Green, 570 Macpherson Road, Singapore 368237</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:368237">http://gothere.sg/maps#q:368237</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);
+panoramaOptions.position = marker7.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.3344,103.886), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 33 Playfair Road, Singapore 367994</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:367994">http://gothere.sg/maps#q:367994</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);
+panoramaOptions.position = marker8.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.33471,103.888), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 17 Harper Road, Singapore 369679</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:369679">http://gothere.sg/maps#q:369679</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);
+panoramaOptions.position = marker9.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.33445,103.888), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Macpherson Industrial Estate</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Macpherson Industrial Estate, 15 Harper Road, Singapore 369678</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:369680">http://gothere.sg/maps#q:369680</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);
+panoramaOptions.position = marker10.position;
+panorama.setOptions(panoramaOptions);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body>
+<div id="map-canvas" style="width: 50%; height: 100%;float:left"></div>
+<div id="pano" style="width: 50%; height: 100%;float:left"></div>
+</body></html>

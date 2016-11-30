@@ -1,0 +1,504 @@
+<!DOCTYPE html><html><head><title>Hotel</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8"><style>html, body, #map-canvas {height: 100%;margin: 0px;padding: 0px}</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><script>
+function initialize(){
+var mapOptions = {zoom: 14,center: new google.maps.LatLng(1.30988,103.878)};
+var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+var panoramaOptions = {position: new google.maps.LatLng(1.30988,103.878)};
+var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions);
+map.setStreetView(panorama);
+var marker0 = new google.maps.Marker({position: new google.maps.LatLng(1.30777,103.862), map: map});
+var infowindow0 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">V Hotel Lavender</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>V Hotel Lavender, 70 Jellicoe Road, Singapore 208767</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208768">http://gothere.sg/maps#q:208768</a></div></div>'});
+google.maps.event.addListener(marker0, 'click', function() {
+infowindow0.open(map,marker0);
+panoramaOptions.position = marker0.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker1 = new google.maps.Marker({position: new google.maps.LatLng(1.30948,103.862), map: map});
+var infowindow1 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fragrance Hotel Imperial</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fragrance Hotel Imperial, 28 Penhas Road, Singapore 208187</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:208188">http://gothere.sg/maps#q:208188</a></div></div>'});
+google.maps.event.addListener(marker1, 'click', function() {
+infowindow1.open(map,marker1);
+panoramaOptions.position = marker1.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker2 = new google.maps.Marker({position: new google.maps.LatLng(1.31076,103.862), map: map});
+var infowindow2 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Lavender</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Lavender, 85 Lavender Street, Singapore 338716</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:338717">http://gothere.sg/maps#q:338717</a></div></div>'});
+google.maps.event.addListener(marker2, 'click', function() {
+infowindow2.open(map,marker2);
+panoramaOptions.position = marker2.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker3 = new google.maps.Marker({position: new google.maps.LatLng(1.31514,103.891), map: map});
+var infowindow3 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Four Chain View Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Four Chain View Hotel, 757 Geylang Road, Singapore 389659</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:389661">http://gothere.sg/maps#q:389661</a></div></div>'});
+google.maps.event.addListener(marker3, 'click', function() {
+infowindow3.open(map,marker3);
+panoramaOptions.position = marker3.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker4 = new google.maps.Marker({position: new google.maps.LatLng(1.31498,103.895), map: map});
+var infowindow4 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Lion City Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Lion City Hotel, 15 Tanjong Katong Road, Singapore 436950</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:436950">http://gothere.sg/maps#q:436950</a></div></div>'});
+google.maps.event.addListener(marker4, 'click', function() {
+infowindow4.open(map,marker4);
+panoramaOptions.position = marker4.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker5 = new google.maps.Marker({position: new google.maps.LatLng(1.31392,103.878), map: map});
+var infowindow5 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Amrise Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Amrise Hotel, 112 Sims Avenue, Singapore 387436</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:387437">http://gothere.sg/maps#q:387437</a></div></div>'});
+google.maps.event.addListener(marker5, 'click', function() {
+infowindow5.open(map,marker5);
+panoramaOptions.position = marker5.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker6 = new google.maps.Marker({position: new google.maps.LatLng(1.31368,103.878), map: map});
+var infowindow6 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Spring</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Spring, 22 Lorong 15 Geylang, Singapore 388619</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388620">http://gothere.sg/maps#q:388620</a></div></div>'});
+google.maps.event.addListener(marker6, 'click', function() {
+infowindow6.open(map,marker6);
+panoramaOptions.position = marker6.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker7 = new google.maps.Marker({position: new google.maps.LatLng(1.31317,103.878), map: map});
+var infowindow7 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Chang Ziang Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Chang Ziang Hotel, 15 Lorong 15 Geylang, Singapore 388607</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388608">http://gothere.sg/maps#q:388608</a></div></div>'});
+google.maps.event.addListener(marker7, 'click', function() {
+infowindow7.open(map,marker7);
+panoramaOptions.position = marker7.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker8 = new google.maps.Marker({position: new google.maps.LatLng(1.31128,103.874), map: map});
+var infowindow8 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Gay World Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Gay World Hotel, 115 Geylang Road, Singapore 389218</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:389218">http://gothere.sg/maps#q:389218</a></div></div>'});
+google.maps.event.addListener(marker8, 'click', function() {
+infowindow8.open(map,marker8);
+panoramaOptions.position = marker8.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker9 = new google.maps.Marker({position: new google.maps.LatLng(1.31165,103.876), map: map});
+var infowindow9 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Yong Nan Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Yong Nan Hotel, 182 Geylang Road, Singapore 389252</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:389253">http://gothere.sg/maps#q:389253</a></div></div>'});
+google.maps.event.addListener(marker9, 'click', function() {
+infowindow9.open(map,marker9);
+panoramaOptions.position = marker9.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker10 = new google.maps.Marker({position: new google.maps.LatLng(1.31235,103.882), map: map});
+var infowindow10 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Seng Wah Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Seng Wah Hotel, 15 Lorong 22 Geylang, Singapore 398673</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398673">http://gothere.sg/maps#q:398673</a></div></div>'});
+google.maps.event.addListener(marker10, 'click', function() {
+infowindow10.open(map,marker10);
+panoramaOptions.position = marker10.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker11 = new google.maps.Marker({position: new google.maps.LatLng(1.31223,103.882), map: map});
+var infowindow11 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Min Wah Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Min Wah Hotel, 19 Lorong 22 Geylang, Singapore 398676</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398677">http://gothere.sg/maps#q:398677</a></div></div>'});
+google.maps.event.addListener(marker11, 'click', function() {
+infowindow11.open(map,marker11);
+panoramaOptions.position = marker11.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker12 = new google.maps.Marker({position: new google.maps.LatLng(1.31208,103.883), map: map});
+var infowindow12 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Kim Tian Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Kim Tian Hotel, 21 Lorong 22 Geylang, Singapore 398678</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398679">http://gothere.sg/maps#q:398679</a></div></div>'});
+google.maps.event.addListener(marker12, 'click', function() {
+infowindow12.open(map,marker12);
+panoramaOptions.position = marker12.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker13 = new google.maps.Marker({position: new google.maps.LatLng(1.31125,103.882), map: map});
+var infowindow13 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Santa Grand Hotel Aljunied</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Santa Grand Hotel Aljunied, 34 Lorong 22 Geylang, Singapore 398691</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398692">http://gothere.sg/maps#q:398692</a></div></div>'});
+google.maps.event.addListener(marker13, 'click', function() {
+infowindow13.open(map,marker13);
+panoramaOptions.position = marker13.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker14 = new google.maps.Marker({position: new google.maps.LatLng(1.31109,103.882), map: map});
+var infowindow14 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel Compass</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel Compass, 36 Lorong 22 Geylang, Singapore 398693</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398694">http://gothere.sg/maps#q:398694</a></div></div>'});
+google.maps.event.addListener(marker14, 'click', function() {
+infowindow14.open(map,marker14);
+panoramaOptions.position = marker14.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker15 = new google.maps.Marker({position: new google.maps.LatLng(1.31175,103.883), map: map});
+var infowindow15 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel Fuji</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel Fuji, 22 Jalan Molek, Singapore 399541</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399542">http://gothere.sg/maps#q:399542</a></div></div>'});
+google.maps.event.addListener(marker15, 'click', function() {
+infowindow15.open(map,marker15);
+panoramaOptions.position = marker15.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker16 = new google.maps.Marker({position: new google.maps.LatLng(1.31095,103.882), map: map});
+var infowindow16 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Summer Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Summer Hotel, 45 Lorong 22 Geylang, Singapore 398699</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398699">http://gothere.sg/maps#q:398699</a></div></div>'});
+google.maps.event.addListener(marker16, 'click', function() {
+infowindow16.open(map,marker16);
+panoramaOptions.position = marker16.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker17 = new google.maps.Marker({position: new google.maps.LatLng(1.31194,103.881), map: map});
+var infowindow17 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Diamond Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Diamond Hotel, 25 Lorong 18 Geylang, Singapore 398806</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398807">http://gothere.sg/maps#q:398807</a></div></div>'});
+google.maps.event.addListener(marker17, 'click', function() {
+infowindow17.open(map,marker17);
+panoramaOptions.position = marker17.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker18 = new google.maps.Marker({position: new google.maps.LatLng(1.31164,103.881), map: map});
+var infowindow18 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Star</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Star, 31 Lorong 18 Geylang, Singapore 398828</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398829">http://gothere.sg/maps#q:398829</a></div></div>'});
+google.maps.event.addListener(marker18, 'click', function() {
+infowindow18.open(map,marker18);
+panoramaOptions.position = marker18.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker19 = new google.maps.Marker({position: new google.maps.LatLng(1.31233,103.88), map: map});
+var infowindow19 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">New Queen\'s City Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>New Queen\'s City Hotel, 10 Lorong 18 Geylang, Singapore 398793</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398794">http://gothere.sg/maps#q:398794</a></div></div>'});
+google.maps.event.addListener(marker19, 'click', function() {
+infowindow19.open(map,marker19);
+panoramaOptions.position = marker19.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker20 = new google.maps.Marker({position: new google.maps.LatLng(1.31186,103.88), map: map});
+var infowindow20 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Geylang</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Geylang, 20 Lorong 16 Geylang, Singapore 398863</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398864">http://gothere.sg/maps#q:398864</a></div></div>'});
+google.maps.event.addListener(marker20, 'click', function() {
+infowindow20.open(map,marker20);
+panoramaOptions.position = marker20.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker21 = new google.maps.Marker({position: new google.maps.LatLng(1.31188,103.88), map: map});
+var infowindow21 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Palace</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Palace, 25 Lorong 16 Geylang, Singapore 398867</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398868">http://gothere.sg/maps#q:398868</a></div></div>'});
+google.maps.event.addListener(marker21, 'click', function() {
+infowindow21.open(map,marker21);
+panoramaOptions.position = marker21.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker22 = new google.maps.Marker({position: new google.maps.LatLng(1.31231,103.881), map: map});
+var infowindow22 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fragrance Hotel Ruby</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fragrance Hotel Ruby, 10 Lorong 20 Geylang, Singapore 398730</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398731">http://gothere.sg/maps#q:398731</a></div></div>'});
+google.maps.event.addListener(marker22, 'click', function() {
+infowindow22.open(map,marker22);
+panoramaOptions.position = marker22.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker23 = new google.maps.Marker({position: new google.maps.LatLng(1.31197,103.882), map: map});
+var infowindow23 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 20</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 20, 23 Lorong 20 Geylang, Singapore 398741</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398742">http://gothere.sg/maps#q:398742</a></div></div>'});
+google.maps.event.addListener(marker23, 'click', function() {
+infowindow23.open(map,marker23);
+panoramaOptions.position = marker23.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker24 = new google.maps.Marker({position: new google.maps.LatLng(1.31203,103.881), map: map});
+var infowindow24 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Gold</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Gold, 20 Lorong 20 Geylang, Singapore 398738</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398739">http://gothere.sg/maps#q:398739</a></div></div>'});
+google.maps.event.addListener(marker24, 'click', function() {
+infowindow24.open(map,marker24);
+panoramaOptions.position = marker24.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker25 = new google.maps.Marker({position: new google.maps.LatLng(1.31326,103.876), map: map});
+var infowindow25 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Regin Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Regin Hotel, 56 Sims Avenue, Singapore 387416</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:387417">http://gothere.sg/maps#q:387417</a></div></div>'});
+google.maps.event.addListener(marker25, 'click', function() {
+infowindow25.open(map,marker25);
+panoramaOptions.position = marker25.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker26 = new google.maps.Marker({position: new google.maps.LatLng(1.31283,103.877), map: map});
+var infowindow26 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel Double One</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel Double One, 11 Lorong 11 Geylang, Singapore 388703</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388704">http://gothere.sg/maps#q:388704</a></div></div>'});
+google.maps.event.addListener(marker26, 'click', function() {
+infowindow26.open(map,marker26);
+panoramaOptions.position = marker26.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker27 = new google.maps.Marker({position: new google.maps.LatLng(1.31155,103.876), map: map});
+var infowindow27 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Monlavin Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Monlavin Hotel, 4 Lorong 6 Geylang, Singapore 399166</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399167">http://gothere.sg/maps#q:399167</a></div></div>'});
+google.maps.event.addListener(marker27, 'click', function() {
+infowindow27.open(map,marker27);
+panoramaOptions.position = marker27.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker28 = new google.maps.Marker({position: new google.maps.LatLng(1.31097,103.877), map: map});
+var infowindow28 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">New Darlene Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>New Darlene Hotel, 32 Lorong 8 Geylang, Singapore 399096</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399096">http://gothere.sg/maps#q:399096</a></div></div>'});
+google.maps.event.addListener(marker28, 'click', function() {
+infowindow28.open(map,marker28);
+panoramaOptions.position = marker28.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker29 = new google.maps.Marker({position: new google.maps.LatLng(1.31099,103.877), map: map});
+var infowindow29 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 6</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 6, 5 Lorong 6 Geylang, Singapore 399167</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399168">http://gothere.sg/maps#q:399168</a></div></div>'});
+google.maps.event.addListener(marker29, 'click', function() {
+infowindow29.open(map,marker29);
+panoramaOptions.position = marker29.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker30 = new google.maps.Marker({position: new google.maps.LatLng(1.31109,103.876), map: map});
+var infowindow30 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fragrance Hotel Emerald</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fragrance Hotel Emerald, 20 Lorong 6 Geylang, Singapore 399174</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399175">http://gothere.sg/maps#q:399175</a></div></div>'});
+google.maps.event.addListener(marker30, 'click', function() {
+infowindow30.open(map,marker30);
+panoramaOptions.position = marker30.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker31 = new google.maps.Marker({position: new google.maps.LatLng(1.31008,103.877), map: map});
+var infowindow31 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Oxley Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Oxley Hotel, 44 Lorong 6 Geylang, Singapore 399199</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399199">http://gothere.sg/maps#q:399199</a></div></div>'});
+google.maps.event.addListener(marker31, 'click', function() {
+infowindow31.open(map,marker31);
+panoramaOptions.position = marker31.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker32 = new google.maps.Marker({position: new google.maps.LatLng(1.31025,103.876), map: map});
+var infowindow32 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Nicoll Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Nicoll Hotel, 29 Lorong 4 Geylang, Singapore 399281</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399282">http://gothere.sg/maps#q:399282</a></div></div>'});
+google.maps.event.addListener(marker32, 'click', function() {
+infowindow32.open(map,marker32);
+panoramaOptions.position = marker32.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker33 = new google.maps.Marker({position: new google.maps.LatLng(1.31208,103.878), map: map});
+var infowindow33 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Cherry</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Cherry, 3 Lorong 12 Geylang, Singapore 399014</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399015">http://gothere.sg/maps#q:399015</a></div></div>'});
+google.maps.event.addListener(marker33, 'click', function() {
+infowindow33.open(map,marker33);
+panoramaOptions.position = marker33.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker34 = new google.maps.Marker({position: new google.maps.LatLng(1.31184,103.878), map: map});
+var infowindow34 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fragrance Hotel Sapphire</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fragrance Hotel Sapphire, 3 Lorong 10 Geylang, Singapore 399037</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399038">http://gothere.sg/maps#q:399038</a></div></div>'});
+google.maps.event.addListener(marker34, 'click', function() {
+infowindow34.open(map,marker34);
+panoramaOptions.position = marker34.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker35 = new google.maps.Marker({position: new google.maps.LatLng(1.31201,103.878), map: map});
+var infowindow35 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel Ascendere</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel Ascendere, 1 Lorong 10 Geylang, Singapore 399035</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399037">http://gothere.sg/maps#q:399037</a></div></div>'});
+google.maps.event.addListener(marker35, 'click', function() {
+infowindow35.open(map,marker35);
+panoramaOptions.position = marker35.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker36 = new google.maps.Marker({position: new google.maps.LatLng(1.31193,103.877), map: map});
+var infowindow36 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Lex Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Lex Hotel, 1 Lorong 8 Geylang, Singapore 399073</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399073">http://gothere.sg/maps#q:399073</a></div></div>'});
+google.maps.event.addListener(marker36, 'click', function() {
+infowindow36.open(map,marker36);
+panoramaOptions.position = marker36.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker37 = new google.maps.Marker({position: new google.maps.LatLng(1.31128,103.877), map: map});
+var infowindow37 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Orchid</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Orchid, 21 Lorong 8 Geylang, Singapore 399090</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399090">http://gothere.sg/maps#q:399090</a></div></div>'});
+google.maps.event.addListener(marker37, 'click', function() {
+infowindow37.open(map,marker37);
+panoramaOptions.position = marker37.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker38 = new google.maps.Marker({position: new google.maps.LatLng(1.31149,103.878), map: map});
+var infowindow38 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 101</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 101, 12 Lorong 12 Geylang, Singapore 398993</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398994">http://gothere.sg/maps#q:398994</a></div></div>'});
+google.maps.event.addListener(marker38, 'click', function() {
+infowindow38.open(map,marker38);
+panoramaOptions.position = marker38.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker39 = new google.maps.Marker({position: new google.maps.LatLng(1.31107,103.879), map: map});
+var infowindow39 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Princess</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Princess, 21 Lorong 12 Geylang, Singapore 399001</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399002">http://gothere.sg/maps#q:399002</a></div></div>'});
+google.maps.event.addListener(marker39, 'click', function() {
+infowindow39.open(map,marker39);
+panoramaOptions.position = marker39.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker40 = new google.maps.Marker({position: new google.maps.LatLng(1.3114,103.878), map: map});
+var infowindow40 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 88 International</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 88 International, 12 Lorong 10 Geylang, Singapore 399045</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399045">http://gothere.sg/maps#q:399045</a></div></div>'});
+google.maps.event.addListener(marker40, 'click', function() {
+infowindow40.open(map,marker40);
+panoramaOptions.position = marker40.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker41 = new google.maps.Marker({position: new google.maps.LatLng(1.31129,103.878), map: map});
+var infowindow41 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Oxley Blossom Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Oxley Blossom Hotel, 14 Lorong 10 Geylang, Singapore 399047</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399047">http://gothere.sg/maps#q:399047</a></div></div>'});
+google.maps.event.addListener(marker41, 'click', function() {
+infowindow41.open(map,marker41);
+panoramaOptions.position = marker41.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker42 = new google.maps.Marker({position: new google.maps.LatLng(1.31168,103.878), map: map});
+var infowindow42 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">New Happy Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>New Happy Hotel, 9 Lorong 10 Geylang, Singapore 399042</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399153">http://gothere.sg/maps#q:399153</a></div></div>'});
+google.maps.event.addListener(marker42, 'click', function() {
+infowindow42.open(map,marker42);
+panoramaOptions.position = marker42.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker43 = new google.maps.Marker({position: new google.maps.LatLng(1.31092,103.877), map: map});
+var infowindow43 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Golden Star Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Golden Star Hotel, 31 Lorong 8 Geylang, Singapore 399095</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399095">http://gothere.sg/maps#q:399095</a></div></div>'});
+google.maps.event.addListener(marker43, 'click', function() {
+infowindow43.open(map,marker43);
+panoramaOptions.position = marker43.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker44 = new google.maps.Marker({position: new google.maps.LatLng(1.31014,103.877), map: map});
+var infowindow44 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hotel 81 Hollywood</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hotel 81 Hollywood, 61 Lorong 8 Geylang, Singapore 399121</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399121">http://gothere.sg/maps#q:399121</a></div></div>'});
+google.maps.event.addListener(marker44, 'click', function() {
+infowindow44.open(map,marker44);
+panoramaOptions.position = marker44.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker45 = new google.maps.Marker({position: new google.maps.LatLng(1.31,103.877), map: map});
+var infowindow45 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Taipei Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Taipei Hotel, 60 Lorong 8 Geylang, Singapore 399120</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:399120">http://gothere.sg/maps#q:399120</a></div></div>'});
+google.maps.event.addListener(marker45, 'click', function() {
+infowindow45.open(map,marker45);
+panoramaOptions.position = marker45.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker46 = new google.maps.Marker({position: new google.maps.LatLng(1.31426,103.884), map: map});
+var infowindow46 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Hua Shui Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Hua Shui Hotel, 5 Lorong 27 Geylang, Singapore 388158</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:388158">http://gothere.sg/maps#q:388158</a></div></div>'});
+google.maps.event.addListener(marker46, 'click', function() {
+infowindow46.open(map,marker46);
+panoramaOptions.position = marker46.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker47 = new google.maps.Marker({position: new google.maps.LatLng(1.31327,103.885), map: map});
+var infowindow47 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Meng Yew Hotel</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Meng Yew Hotel, 488 Geylang Road, Singapore 389447</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:389448">http://gothere.sg/maps#q:389448</a></div></div>'});
+google.maps.event.addListener(marker47, 'click', function() {
+infowindow47.open(map,marker47);
+panoramaOptions.position = marker47.position;
+panorama.setOptions(panoramaOptions);
+});
+var marker48 = new google.maps.Marker({position: new google.maps.LatLng(1.31073,103.881), map: map});
+var infowindow48 = new google.maps.InfoWindow({ content: 
+'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Fragrance Hotel Crystal</h1><div id="bodyContent">'+
+'<p><b>Addr: </b>Fragrance Hotel Crystal, 50 Lorong 18 Geylang, Singapore 398824</p>'+
+'<p><b>Url: </b><a href="http://gothere.sg/maps#q:398825">http://gothere.sg/maps#q:398825</a></div></div>'});
+google.maps.event.addListener(marker48, 'click', function() {
+infowindow48.open(map,marker48);
+panoramaOptions.position = marker48.position;
+panorama.setOptions(panoramaOptions);
+});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</script></head><body>
+<div id="map-canvas" style="width: 50%; height: 100%;float:left"></div>
+<div id="pano" style="width: 50%; height: 100%;float:left"></div>
+</body></html>
